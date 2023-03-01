@@ -12,6 +12,35 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
 }
+.badges-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 800px; /* or any other value you prefer */
+  margin: 0 auto;
+}
+
+.badge {
+  margin: 5px;
+  padding: 8px 10px;
+  background-color: #eee;
+  color: #444;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+
+
+
+.badge-gray {
+  background-color: #ccc;
+  color: #fff;
+}
+
+
+
+
 
 a {
   color: #0563bb;
